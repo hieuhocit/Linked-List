@@ -1,5 +1,6 @@
+// Should write in a separate file (I write in a single file to serve a running test because I don't know how to run a test when there are many separate files :v )
 class Node {
-  constructor(data) {
+  constructor(data = null) {
     this.data = data;
     this.next = null;
   }
